@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "face-matching"
+version = "0.1.0"
+description = "This repository contains source code for performing face-matching operations."
+authors = ["Veerakit SlothPete Prasertpol <veerakit413@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+face-recognition = "^1.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
